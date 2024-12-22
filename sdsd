@@ -1,0 +1,13 @@
+local player = game.Players.LocalPlayer 
+local leaderstats = player:FindFirstChild("leaderstats") 
+
+if leaderstats then
+    local timeStat = leaderstats:FindFirstChild("Time") 
+    if timeStat then
+        timeStat.Value = "923199999999999999" 
+    else
+        paint("by 5wyv")
+    end
+else
+    warn("Dont leak this script")
+end

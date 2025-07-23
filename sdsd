@@ -1,16 +1,1 @@
-local player = game.Players.LocalPlayer
-local leaderstats = player:FindFirstChild("leaderstats")
-
-while true do
-    if leaderstats then
-        local timeStat = leaderstats:FindFirstChild("Time")
-        if timeStat then
-            timeStat.Value = "923199999999999999"
-        else
-            paint("by 5wyv")
-        end
-    else
-        warn("Dont leak this script")
-    end
-    wait(0.001) -- 1초 대기 후 반복
-end
+페ㅔㅇㄴㅌ,
